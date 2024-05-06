@@ -1,0 +1,69 @@
+body {
+    background: url(../images/wallpaper-rickmorty.webp) no-repeat center;
+    background-size: cover;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.img-brain {
+    width: 100px;
+}
+
+.dev-logo {
+    width: 70px;
+    position: relative;
+    top: 400px;
+}
+
+.login-header h1 {
+    color: #333;
+    font-size: 1.5em;
+    text-shadow: 3px 3px #EE665C;
+    text-align: center;
+}
+
+.login-input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    width: 90%;
+    outline: none;
+    padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .5);
+    text-transform: capitalize;
+}
+
+.login-btn-submit {
+    background-color: #EE665C;
+    border-radius: 8px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 15px;
+    max-width: 300px;
+    width: 90%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .5);
+}
+
+.login-btn-submit:disabled {
+    background-color: #EEE;
+    color: #AAA;
+    cursor: auto;
+}
