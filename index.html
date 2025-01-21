@@ -1,27 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/login.css">
-    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/login.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/images/favicon.ico"
+      type="image/x-icon"
+    />
 
-    <title>Memory Game - Rick and Morty</title>
-</head>
-<body>
-    <form action="" class="login-form">
+    <title>Jogo da Memória - Rick and Morty</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="login-form">
         <div class="login-header">
-            <img class="dev-logo" src="./src/images/jhab-dev-logo.png" alt="jhab-dev-logo">
-            <img class="img-brain" src="./src/images/brain.png" alt="brain-icon">
-            <h1>Memory Game</h1>
+          <img
+            class="img-brain"
+            src="./src/images/brain.png"
+            alt="brain-icon"
+          />
+          <h1>Jogo da Memória</h1>
         </div>
-        
-        <input type="text" placeholder="Name" class="login-input">
-        <button type="submit" class="login-btn-submit" disabled>Play</button>
-    </form>
 
-</body>
-<script src="./src/js/login.js"></script>
+        <input type="text" placeholder="Name" class="login-input" />
+        <button type="submit" class="login-btn-submit" disabled>Jogar</button>
+      </form>
+
+      <button type="button" class="btn-score">Ranking</button>
+    </div>
+  </body>
+  <script src="./src/js/login.js"></script>
 </html>

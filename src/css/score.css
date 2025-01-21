@@ -1,0 +1,50 @@
+body {
+  background: url(../images/wallpaper-rickmorty.webp) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-return {
+  background-color: #ee665c;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 15px;
+  max-width: 300px;
+  width: 90%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.container-score {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.score-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  height: 50px;
+  width: 100%;
+}
+
+.score-index,
+.score-name,
+.score-time {
+  font-size: 1.2em;
+  text-transform: capitalize;
+}
