@@ -16,7 +16,9 @@ Who has the fastest brain?
 
 Log in to rank up and compete with your friends!
 
-<img align="center" alt="HTML" height="450" width="500" src="src/images/animation_card-memory-game(1).gif">
+<img align="center" alt="HTML" height="400" width="500" src="src/images/animation_card-memory-game(1).gif">
+<br>
+<img align="center" alt="HTML" height="400" width="500" src="src/images/animation_card-memory-game(2).gif">
 
 You can view the project via the link: <br>
 https://srbaliardo.github.io/memory-game
